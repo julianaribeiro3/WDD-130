@@ -34,7 +34,7 @@ main section {
 }
 body {
     background-color: white;
-    font-family: "Barlow Semi Condensed", Helvetica, sans-serif;
+    font-family:'Barlow Semi Condensed', sans-serif, Helvetica;
     margin: 0;
     padding: 0;
 }
@@ -101,7 +101,7 @@ h4 {
     color: black;
 }
 .home-title {
-    font-family: Courgette, Tahoma, Verdana;
+    font-family: 'Courgette', cursive, Verdana;
     font-size: 2em;
 }
 h2 {
