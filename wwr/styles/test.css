@@ -1,4 +1,4 @@
-#content {
+/* #content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -180,11 +180,15 @@ h2 {
 }
 .main-section-img {
     box-sizing: border-box;
-}
+} */
+
+
+
+
 
 /*FAQ page*/
 
-#faq-hero {
+/* #faq-hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
@@ -205,42 +209,44 @@ h2 {
     margin-top: 100px;
     grid-column: 2/3;
     grid-row: 2/2;
-}
+} */
 .faq-grid {
-    margin: 80px 200px;    
+    /* margin: 200px 200px; */
     display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr, 4fr;
+    gap: 20px;
+}   
+    /*grid-template-rows: repeat(3, 1fr);*/
     
-    
-}
-.question-img {
-    width: 60%;
+
+/* .question-img {
     border: 4px solid #034363;
     grid-column: 1/2;
     grid-row: 1/2;
-    align-self: center;
-    
+
+
 }
 .question-box {
-    grid-column: 2/4;
-    grid-row: 1/2; 
-    text-justify: center;
-    text-align: center;
-    padding: 15px;   
+    background-color: aliceblue;
+    grid-column: 3/6;
+    grid-row: 1/2;
+
 }
-.answer-box {
-    background-color: #e8ebe8;
-    grid-column: 1/4;
+.anser-box {
+    background-color: aliceblue;
+    grid-column: 1/6;
     grid-row: 2/3;
-    padding: 20px;
 }
 .question-img-left {
     float: left;
-}
+} */
 
+
+
+
+/* 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, #faq-hero {
+    #hero, .home-grid {
         display: block;
         height: auto;
     }
@@ -251,10 +257,10 @@ h2 {
         display: block;
         padding: 15px;
     }
-    #hero, #faq-hero {
+    #hero {
         margin-top: 0;
     }
-    #hero-msg, #faq-title {
+    #hero-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
@@ -264,7 +270,7 @@ h2 {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card, .faq-grid { 
+    .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
@@ -279,10 +285,5 @@ h2 {
     footer {
         margin-top: 25px;
     }
-    .question-img {
-        display: block;
-        margin: 0 auto;
-        
-    }
 }
-
+ */
