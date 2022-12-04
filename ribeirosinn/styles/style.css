@@ -222,7 +222,7 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, #location-grid, #beroom-grid, .places, {
+    #hero, #location-grid, #beroom-grid, .places {
         display: block;
         height: auto;
     }
